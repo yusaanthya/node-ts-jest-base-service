@@ -1,0 +1,28 @@
+# node modules
+node_modules/
+
+# build output
+dist/
+build/
+
+# env variables
+.env
+.env.local
+
+# logs
+logs/
+*.log
+
+# test output
+coverage/
+
+# system
+.DS_Store
+Thumbs.db
+
+# vscode config
+.vscode/
+
+# yarn cache
+.yarn/cache/
+.pnp.*
