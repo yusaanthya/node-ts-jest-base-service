@@ -5,6 +5,7 @@
   "author": "Anthya1104 <anthya1104@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "express": "^5.1.0"
   },
   "devDependencies": {
@@ -24,7 +25,8 @@
     "typescript": "^5.8.3"
   },
   "scripts": {
-    "dev": "ts-node src/index.ts",
+    "dev": "ts-node src/server.ts",
+    "test": "jest",
     "build": "tsc",
     "start": "node dist/index.js",
     "lint": "eslint . --ext .ts",

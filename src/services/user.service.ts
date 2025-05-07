@@ -1,8 +1,7 @@
 import { User } from '../models/user.model'
+import { mockUsers } from '../utils/mockUsers'
 
 export const getAllUsers = (): User[] => {
-  return [
-    { id: 1, name: 'Alice' },
-    { id: 2, name: 'Bob' },
-  ]
+  // could do some database calls here
+  return mockUsers
 }

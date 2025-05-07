@@ -8,6 +8,8 @@ build/
 # env variables
 .env
 .env.local
+/.env
+/.env.local
 
 # logs
 logs/
